@@ -15,7 +15,7 @@ def extract_data(file_path):
 # Main test function
 def compare(df1, df2):
     pd.testing.assert_frame_equal(df1, df2)
-    print("Test successful."
+    print("Test successful.")
 
 if __name__ == "__main__":
     file1= 'output_data.csv'
