@@ -19,4 +19,6 @@ def compare(df1, df2):
 if __name__ == "__main__":
     file1= 'output_data.csv'
     file2 = 'output_data_example.csv'
-    compare(file1, file2)
+    df1 = extract_data(file1)
+    df2 = extract_data(file2)
+    compare(df1, df2)
