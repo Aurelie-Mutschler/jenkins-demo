@@ -12,5 +12,10 @@ pipeline {
                 bat 'python etl_script.py'
             }
         }
+	  stage('Test') {
+            steps {
+                bat 'python test.py'
+            }
+        }
     }
 }
